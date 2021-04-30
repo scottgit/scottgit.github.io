@@ -1,0 +1,49 @@
+#header .image.avatar {
+  width: 8.25em;
+}
+
+.small {
+  font-size: .6em;
+}
+
+.summary .push-left {
+  padding-right: 2em;
+}
+
+.summary .push-left:after {
+  content: '...'
+}
+
+.summary > strong {
+  margin-bottom: 1.25em;
+}
+
+.summary > * {
+  display: block;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 980px) {
+  .summary > span:not(.push-left) {
+    display: inline;
+  }
+
+  .summary {
+    margin: auto 20%;
+  }
+
+  .summary .push-left {
+    padding-right: initial;
+  }
+
+  .summary > span:not(:last-child):not(.push-left):after {
+    content: ',';
+  }
+
+  .summary > span:last-child:before {
+    content: ' and '
+  }
+}
+.summary .push-left ~ span {
+
+}
