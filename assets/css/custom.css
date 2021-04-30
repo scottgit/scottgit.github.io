@@ -6,6 +6,10 @@
   font-size: .6em;
 }
 
+.summary strong {
+  font-size: 1.3em;
+}
+
 .summary .push-left {
   padding-right: 2em;
 }
