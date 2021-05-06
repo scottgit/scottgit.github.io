@@ -27,6 +27,22 @@
   white-space: nowrap;
 }
 
+.image.thumb:after {
+  content: 'Examine';
+}
+
+.poptrox-popup .closer,
+.poptrox-popup .nav-next:before,
+.poptrox-popup .nav-previous:before  {
+  color: #888;
+  text-shadow: 2px 2px rgba(51, 51, 51, 0.75);
+}
+
+.poptrox-popup .closer:before {
+  border: solid 3px rgba(136, 136, 136, 0.5);
+  box-shadow: 1px 1px rgba(51, 51, 51, 0.75);;
+}
+
 @media screen and (max-width: 980px) {
   .summary > span:not(.push-left) {
     display: inline;
@@ -47,7 +63,4 @@
   .summary > span:last-child:before {
     content: ' and '
   }
-}
-.summary .push-left ~ span {
-
 }
