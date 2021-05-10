@@ -28,7 +28,7 @@
 }
 
 .image.thumb:after {
-  content: 'Examine';
+  content: 'Enlarge';
 }
 
 .poptrox-popup .closer,
