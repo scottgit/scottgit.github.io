@@ -47,6 +47,18 @@
   font-size: .8em;
 }
 
+.tech-icon {
+  text-align: center;
+}
+
+.tech-icon:hover img {
+  transform: rotate(10deg);
+}
+
+.tech-icon:hover p {
+  transform: translateY(-20px);
+}
+
 @media screen and (max-width: 980px) {
   .summary > span:not(.push-left) {
     display: inline;
